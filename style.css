@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+}
+p{
+    font-size:1.5em;
+}
+h1{
+    text-align: center;
+    font-size:3em;
+}
+h2{
+    font-size:2em;
+}
+body{
+    margin-left:100px;
+    margin-right:100px;
+    background-color: #FB773C;
+    font-family: 'Nerko one';
+}
+.container1{
+    padding:10px;
+    background-color: hsl(51, 100%, 69%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.container2{
+    padding:10px;
+    background-color: hsl(51, 100%, 69%);
+    border-radius: 5px;
+}
+main h2{
+    text-align: center;
+}
+main a{
+    margin:50px;
+    display: flex;
+    justify-content: center;
+    text-decoration:none;
+}
+main button{
+    padding:5px;
+    font-size:2em;
+    border-radius:10px;
+    background-color: hsl(51, 100%, 69%);
+    font-family: 'Nerko one';
+}
+main button:hover{
+    background-color: hsl(51, 97%, 57%);
+}

@@ -1,0 +1,101 @@
+h1{
+    font-size:3em;
+    font-weight:bold;
+}
+
+body{
+    text-align: center;
+    background-color: #FB773C;
+    font-family: 'Nerko one';
+    
+}
+.container{
+    height: 70vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap:15px;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border:none;
+    color:black;
+    background-color: hsl(51, 100%, 69%);
+    font-size: 8vmin;
+    font-family: 'Nerko one';
+}
+.box:hover{
+    box-shadow: 1.5px 1.5px 8px rgb(88, 88, 88);
+}
+
+.fa-solid.fa-rotate-right{
+    color:black;
+    animation-name:slideleft;
+    animation-duration:3s;
+}
+.col1{
+    animation-name: slideleft;
+    animation-duration:1s;
+}
+.col2{
+    animation-name: slideleft;
+    animation-duration:1.5s;
+}
+.col3{
+    animation-name: slideleft;
+    animation-duration:2s;
+}
+.resetBtn{
+    background-color: #FB773C;
+    border:none;
+}
+@keyframes slideleft {
+    from{transform:translateX(1000px);}
+}
+@keyframes grow{
+    50%{transform:scale(1,1)}
+}
+button{
+    padding:5px;
+    font-size:2em;
+    border-radius:10px;
+    background-color: hsl(51, 100%, 69%);
+    font-family: 'Nerko one';
+}
+.btns{
+    margin:20px;
+}
+.btns:hover{
+    background-color: hsl(51, 97%, 57%);
+}
+#msg{
+    background-color: hsl(51, 100%, 69%);
+    border-radius: 10px;
+    font-size:3em;  
+    padding:5px;
+    
+}
+.msgContainer{
+    height: 80vh;
+}
+.hide{
+    display:none;
+}
+@media screen and (max-width:850px){
+    div p{
+        margin-left: 0;
+        margin-right:0;
+        width:100%;
+    }
+}
